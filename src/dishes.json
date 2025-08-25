@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "name": "Lasagna",
+    "price": "$40",
+    "description": "Layers of pasta, meat sauce, and creamy béchamel",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 2,
+    "name": "Coq au Vin",
+    "price": "$25",
+    "description": "Chicken braised with red wine, mushrooms, and onions",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 3,
+    "name": "Kartoffelsalat",
+    "price": "$47",
+    "description": "German-style potato salad",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": null
+  },
+  {
+    "id": 4,
+    "name": "Olivier Salad",
+    "price": "$15",
+    "description": "Russian potato salad with vegetables and mayonnaise",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 5,
+    "name": "Mapo Tofu",
+    "price": "$6",
+    "description": "Spicy tofu with minced pork in chili bean paste",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 6,
+    "name": "Miso Soup",
+    "price": "$50",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 7,
+    "name": "Margherita Pizza",
+    "price": "$15",
+    "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 8,
+    "name": "Crème Brûlée",
+    "price": "$8",
+    "description": "Vanilla custard topped with caramelized sugar",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 9,
+    "name": "Sauerbraten",
+    "price": "$12",
+    "description": "Marinated beef pot roast, slow-cooked to perfection",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 10,
+    "name": "Olivier Salad",
+    "price": "$25",
+    "description": "Russian potato salad with vegetables and mayonnaise",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 11,
+    "name": "Peking Duck",
+    "price": "$17",
+    "description": "Roast duck with crispy skin served with pancakes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 12,
+    "name": "Sushi",
+    "price": "$17",
+    "description": "Vinegared rice with fresh fish and seafood",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": null
+  },
+  {
+    "id": 13,
+    "name": "Tiramisu",
+    "price": "$9",
+    "description": "Coffee-flavored Italian dessert with mascarpone",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 14,
+    "name": "Ratatouille",
+    "price": "$24",
+    "description": "Stewed vegetables from Provence",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 15,
+    "name": "Sauerbraten",
+    "price": "$26",
+    "description": "Marinated beef pot roast, slow-cooked to perfection",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 16,
+    "name": "Olivier Salad",
+    "price": "$15",
+    "description": "Russian potato salad with vegetables and mayonnaise",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 17,
+    "name": "Kung Pao Chicken",
+    "price": "$11",
+    "description": "Spicy stir-fried chicken with peanuts and chili peppers",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 18,
+    "name": "Sushi",
+    "price": "$31",
+    "description": "Vinegared rice with fresh fish and seafood",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 19,
+    "name": "Spaghetti Carbonara",
+    "price": "$25",
+    "description": "Pasta with pancetta, eggs, and pecorino cheese",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 20,
+    "name": "Coq au Vin",
+    "price": "$20",
+    "description": "Chicken braised with red wine, mushrooms, and onions",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 21,
+    "name": "Kartoffelsalat",
+    "price": "$8",
+    "description": "German-style potato salad",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 22,
+    "name": "Olivier Salad",
+    "price": "$33",
+    "description": "Russian potato salad with vegetables and mayonnaise",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 23,
+    "name": "Dim Sum",
+    "price": "$44",
+    "description": "Assorted small Cantonese dishes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 24,
+    "name": "Ramen",
+    "price": "$47",
+    "description": "Japanese noodle soup with pork broth",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 25,
+    "name": "Margherita Pizza",
+    "price": "$34",
+    "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 26,
+    "name": "Bouillabaisse",
+    "price": "$50",
+    "description": "Traditional Provençal fish stew",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 27,
+    "name": "Black Forest Cake",
+    "price": "$48",
+    "description": "Chocolate sponge cake with cherries and whipped cream",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 28,
+    "name": "Pelmeni",
+    "price": "$5",
+    "description": "Russian dumplings filled with minced meat",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": null
+  },
+  {
+    "id": 29,
+    "name": "Peking Duck",
+    "price": "$19",
+    "description": "Roast duck with crispy skin served with pancakes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 30,
+    "name": "Miso Soup",
+    "price": "$22",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 31,
+    "name": "Margherita Pizza",
+    "price": "$5",
+    "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 32,
+    "name": "Croissant",
+    "price": "$22",
+    "description": "Buttery flaky pastry, a French breakfast classic",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 33,
+    "name": "Black Forest Cake",
+    "price": "$29",
+    "description": "Chocolate sponge cake with cherries and whipped cream",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 34,
+    "name": "Beef Stroganoff",
+    "price": "$46",
+    "description": "Beef in a creamy mushroom sauce",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 35,
+    "name": "Dim Sum",
+    "price": "$50",
+    "description": "Assorted small Cantonese dishes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 36,
+    "name": "Sushi",
+    "price": "$14",
+    "description": "Vinegared rice with fresh fish and seafood",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 37,
+    "name": "Spaghetti Carbonara",
+    "price": "$12",
+    "description": "Pasta with pancetta, eggs, and pecorino cheese",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 38,
+    "name": "Croissant",
+    "price": "$13",
+    "description": "Buttery flaky pastry, a French breakfast classic",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 39,
+    "name": "Pretzel",
+    "price": "$48",
+    "description": "Traditional German baked bread twisted into a knot",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 40,
+    "name": "Borscht",
+    "price": "$21",
+    "description": "Beetroot soup with sour cream",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 41,
+    "name": "Dim Sum",
+    "price": "$27",
+    "description": "Assorted small Cantonese dishes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 42,
+    "name": "Tempura",
+    "price": "$19",
+    "description": "Lightly battered and deep-fried seafood and vegetables",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 43,
+    "name": "Spaghetti Carbonara",
+    "price": "$7",
+    "description": "Pasta with pancetta, eggs, and pecorino cheese",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 44,
+    "name": "Ratatouille",
+    "price": "$24",
+    "description": "Stewed vegetables from Provence",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 45,
+    "name": "Sauerbraten",
+    "price": "$29",
+    "description": "Marinated beef pot roast, slow-cooked to perfection",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 46,
+    "name": "Beef Stroganoff",
+    "price": "$26",
+    "description": "Beef in a creamy mushroom sauce",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 47,
+    "name": "Mapo Tofu",
+    "price": "$11",
+    "description": "Spicy tofu with minced pork in chili bean paste",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 48,
+    "name": "Sushi",
+    "price": "$44",
+    "description": "Vinegared rice with fresh fish and seafood",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 49,
+    "name": "Margherita Pizza",
+    "price": "$23",
+    "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 50,
+    "name": "Crème Brûlée",
+    "price": "$18",
+    "description": "Vanilla custard topped with caramelized sugar",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": null
+  },
+  {
+    "id": 51,
+    "name": "Bratwurst",
+    "price": "$6",
+    "description": "Grilled German sausage served with mustard",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 52,
+    "name": "Borscht",
+    "price": "$17",
+    "description": "Beetroot soup with sour cream",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 53,
+    "name": "Kung Pao Chicken",
+    "price": "$35",
+    "description": "Spicy stir-fried chicken with peanuts and chili peppers",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 54,
+    "name": "Miso Soup",
+    "price": "$6",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 55,
+    "name": "Risotto ai Funghi",
+    "price": "$16",
+    "description": "Creamy risotto with wild mushrooms",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 56,
+    "name": "Bouillabaisse",
+    "price": "$10",
+    "description": "Traditional Provençal fish stew",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 57,
+    "name": "Bratwurst",
+    "price": "$50",
+    "description": "Grilled German sausage served with mustard",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 58,
+    "name": "Olivier Salad",
+    "price": "$22",
+    "description": "Russian potato salad with vegetables and mayonnaise",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 59,
+    "name": "Peking Duck",
+    "price": "$8",
+    "description": "Roast duck with crispy skin served with pancakes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 60,
+    "name": "Miso Soup",
+    "price": "$17",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 61,
+    "name": "Tiramisu",
+    "price": "$45",
+    "description": "Coffee-flavored Italian dessert with mascarpone",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 62,
+    "name": "Ratatouille",
+    "price": "$47",
+    "description": "Stewed vegetables from Provence",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 63,
+    "name": "Bratwurst",
+    "price": "$14",
+    "description": "Grilled German sausage served with mustard",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 64,
+    "name": "Blini",
+    "price": "$6",
+    "description": "Thin Russian pancakes with various fillings",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 65,
+    "name": "Mapo Tofu",
+    "price": "$48",
+    "description": "Spicy tofu with minced pork in chili bean paste",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 66,
+    "name": "Okonomiyaki",
+    "price": "$10",
+    "description": "Savory pancake with cabbage, meat, and toppings",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 67,
+    "name": "Tiramisu",
+    "price": "$11",
+    "description": "Coffee-flavored Italian dessert with mascarpone",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 68,
+    "name": "Crème Brûlée",
+    "price": "$42",
+    "description": "Vanilla custard topped with caramelized sugar",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 69,
+    "name": "Kartoffelsalat",
+    "price": "$39",
+    "description": "German-style potato salad",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 70,
+    "name": "Beef Stroganoff",
+    "price": "$12",
+    "description": "Beef in a creamy mushroom sauce",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 71,
+    "name": "Sweet and Sour Pork",
+    "price": "$49",
+    "description": "Crispy pork in a tangy sweet and sour sauce",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 72,
+    "name": "Ramen",
+    "price": "$13",
+    "description": "Japanese noodle soup with pork broth",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 73,
+    "name": "Spaghetti Carbonara",
+    "price": "$23",
+    "description": "Pasta with pancetta, eggs, and pecorino cheese",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 74,
+    "name": "Croissant",
+    "price": "$28",
+    "description": "Buttery flaky pastry, a French breakfast classic",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 75,
+    "name": "Black Forest Cake",
+    "price": "$14",
+    "description": "Chocolate sponge cake with cherries and whipped cream",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 76,
+    "name": "Borscht",
+    "price": "$27",
+    "description": "Beetroot soup with sour cream",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 77,
+    "name": "Kung Pao Chicken",
+    "price": "$7",
+    "description": "Spicy stir-fried chicken with peanuts and chili peppers",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 78,
+    "name": "Ramen",
+    "price": "$26",
+    "description": "Japanese noodle soup with pork broth",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 79,
+    "name": "Lasagna",
+    "price": "$37",
+    "description": "Layers of pasta, meat sauce, and creamy béchamel",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": null
+  },
+  {
+    "id": 80,
+    "name": "Ratatouille",
+    "price": "$42",
+    "description": "Stewed vegetables from Provence",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 81,
+    "name": "Sauerbraten",
+    "price": "$34",
+    "description": "Marinated beef pot roast, slow-cooked to perfection",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 82,
+    "name": "Beef Stroganoff",
+    "price": "$21",
+    "description": "Beef in a creamy mushroom sauce",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 83,
+    "name": "Sweet and Sour Pork",
+    "price": "$37",
+    "description": "Crispy pork in a tangy sweet and sour sauce",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 84,
+    "name": "Miso Soup",
+    "price": "$22",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 85,
+    "name": "Lasagna",
+    "price": "$11",
+    "description": "Layers of pasta, meat sauce, and creamy béchamel",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 86,
+    "name": "Ratatouille",
+    "price": "$28",
+    "description": "Stewed vegetables from Provence",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 87,
+    "name": "Sauerbraten",
+    "price": "$40",
+    "description": "Marinated beef pot roast, slow-cooked to perfection",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 88,
+    "name": "Borscht",
+    "price": "$35",
+    "description": "Beetroot soup with sour cream",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 89,
+    "name": "Dim Sum",
+    "price": "$18",
+    "description": "Assorted small Cantonese dishes",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 90,
+    "name": "Okonomiyaki",
+    "price": "$36",
+    "description": "Savory pancake with cabbage, meat, and toppings",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 91,
+    "name": "Spaghetti Carbonara",
+    "price": "$44",
+    "description": "Pasta with pancetta, eggs, and pecorino cheese",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 92,
+    "name": "Croissant",
+    "price": "$23",
+    "description": "Buttery flaky pastry, a French breakfast classic",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 93,
+    "name": "Pretzel",
+    "price": "$16",
+    "description": "Traditional German baked bread twisted into a knot",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 94,
+    "name": "Beef Stroganoff",
+    "price": "$40",
+    "description": "Beef in a creamy mushroom sauce",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 95,
+    "name": "Kung Pao Chicken",
+    "price": "$40",
+    "description": "Spicy stir-fried chicken with peanuts and chili peppers",
+    "category": {
+      "id": 5,
+      "name": "Chinese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 96,
+    "name": "Miso Soup",
+    "price": "$7",
+    "description": "Traditional soup with miso paste and tofu",
+    "category": {
+      "id": 6,
+      "name": "Japanese"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 97,
+    "name": "Margherita Pizza",
+    "price": "$23",
+    "description": "Classic Neapolitan pizza with fresh mozzarella, tomatoes, and basil",
+    "category": {
+      "id": 1,
+      "name": "Italian"
+    },
+    "image": null
+  },
+  {
+    "id": 98,
+    "name": "Coq au Vin",
+    "price": "$34",
+    "description": "Chicken braised with red wine, mushrooms, and onions",
+    "category": {
+      "id": 2,
+      "name": "French"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 99,
+    "name": "Black Forest Cake",
+    "price": "$38",
+    "description": "Chocolate sponge cake with cherries and whipped cream",
+    "category": {
+      "id": 3,
+      "name": "German"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 100,
+    "name": "Pelmeni",
+    "price": "$43",
+    "description": "Russian dumplings filled with minced meat",
+    "category": {
+      "id": 4,
+      "name": "Russian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  }
+]
