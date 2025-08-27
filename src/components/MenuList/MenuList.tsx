@@ -1,5 +1,7 @@
-import type React from "react";
 import styles from "./MenuList.module.css";
+import { DishCard } from "../DishCard";
+
+import type React from "react";
 
 type Props = {
   cateogries: Category[];
@@ -20,15 +22,13 @@ export const MenuList: React.FC<Props> = ({ cateogries, dishes }) => {
             id={categoryId}
             className={styles.categoryContainer}
           >
-            <h3>{name}</h3>
+            <h3 className={styles.categoryTitle}>{name}</h3>
             <ul className={styles.categoryList}>
               {categoryDishes.map((dish) => {
                 const dishId = `dish-${dish.id}`;
                 return (
                   <li key={dishId}>
-                    <h4>{dish.name}</h4>
-                    <p>{dish.description}</p>
-                    <p>{dish.price}</p>
+                    <DishCard dish={dish} />
                   </li>
                 );
               })}

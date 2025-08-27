@@ -1,3 +1,5 @@
+import styles from "./Navigation.module.css";
+
 import type React from "react";
 
 type Props = {
@@ -6,7 +8,7 @@ type Props = {
 
 export const Navigation: React.FC<Props> = ({ categories }) => {
   return (
-    <ul>
+    <ul className={styles.container}>
       {categories.map(({ id, name }) => {
         const categoryId = `category-${id}`;
         return (
