@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: 0.5rem;
+  padding: 0.4rem;
+  min-height: 100%;
+  background-color: var(--secondary-background);
+  border-radius: 0.8rem;
+}
+
+.title {
+  font-size: 1rem;
+  line-height: 125%;
+}
+
+.mainContent {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.description {
+  font-size: 0.75rem;
+}
+
+.title,
+.description {
+  margin: 0;
+}
+
+.footer {
+  display: grid;
+}
+
+.priceTag {
+  align-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background-color: var(--tertiary-background);
+  border-radius: 0.4rem;
+}
