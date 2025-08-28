@@ -6,10 +6,6 @@
   --secondary-background: #f4f4f4;
   --tertiary-background: #e2e2e2;
 
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -88,4 +84,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 }
