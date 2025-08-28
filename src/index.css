@@ -1,8 +1,14 @@
 :root {
   --text-color: #111111;
+  --link-color: #646cff;
+  --active-link-color: #535bf2;
   --primary-background: #fafafa;
   --secondary-background: #f4f4f4;
   --tertiary-background: #e2e2e2;
+
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

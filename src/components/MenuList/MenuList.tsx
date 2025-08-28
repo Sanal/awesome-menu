@@ -1,41 +1,49 @@
+import { InView } from "react-intersection-observer";
+import { CategoryList } from "../CategoryList";
 import styles from "./MenuList.module.css";
-import { DishCard } from "../DishCard";
 
 import type React from "react";
 
 type Props = {
   cateogries: Category[];
   dishes: Dish[];
+  onCategoryVisible: (id: Category["id"]) => void;
 };
 
-export const MenuList: React.FC<Props> = ({ cateogries, dishes }) => {
+export const MenuList: React.FC<Props> = ({
+  cateogries,
+  dishes,
+  onCategoryVisible,
+}) => {
   return (
-    <ul className={styles.container}>
-      {cateogries.map(({ id, name }) => {
-        const categoryId = `category-${id}`;
-        const categoryDishes = dishes.filter(
-          ({ category }) => category.id === id
-        );
-        return (
-          <li
-            key={categoryId}
-            id={categoryId}
-            className={styles.categoryContainer}
-          >
-            <h3 className={styles.categoryTitle}>{name}</h3>
-            <ul className={styles.categoryList}>
-              {categoryDishes.map((dish) => {
-                const dishId = `dish-${dish.id}`;
-                return (
-                  <li key={dishId}>
-                    <DishCard dish={dish} />
-                  </li>
-                );
-              })}
-            </ul>
-          </li>
-        );
-      })}
-    </ul>
+    <div className={styles.container}>
+      <ul className={styles.menuContainer}>
+        {cateogries.map(({ id, name }) => {
+          const categoryId = `category-${id}`;
+          const categoryDishes = dishes.filter(
+            ({ category }) => category.id === id
+          );
+          return (
+            <li
+              key={categoryId}
+              id={categoryId}
+              className={styles.categoryContainer}
+            >
+              <InView
+                as="div"
+                rootMargin="-50% 0% -50% 0%"
+                onChange={(inView) => {
+                  if (inView) {
+                    onCategoryVisible(id);
+                  }
+                }}
+              >
+                <CategoryList category={{ id, name }} dishes={categoryDishes} />
+              </InView>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
   );
 };

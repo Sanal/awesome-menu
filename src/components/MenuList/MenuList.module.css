@@ -1,25 +1,12 @@
 .container {
+  height: 100%;
+  overflow: auto;
+}
+
+.menuContainer {
   display: grid;
   gap: 1.5rem;
   margin: 0;
-  padding: 0.5rem;
-  list-style: none;
-}
-
-.categoryContainer {
-  display: grid;
-  gap: 0.5rem;
-}
-
-.categoryTitle {
-  margin: 0;
-}
-
-.categoryList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.25rem;
-  margin: 0;
-  padding: 0;
+  padding: 20px 0.5rem 100px;
   list-style: none;
 }
