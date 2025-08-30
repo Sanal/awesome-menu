@@ -20,14 +20,16 @@ export const Navigation: React.FC<Props> = ({
     if (containerRef.current && targetRef.current) {
       const container = containerRef.current;
       const target = targetRef.current;
-      const rem = getRemValue();
 
-      if (container && target) {
-        container.scrollTo({
-          left: target.offsetLeft - container.offsetLeft - rem / 2,
-          behavior: "smooth",
-        });
-      }
+      const containerWidth = container.offsetWidth;
+      const targetWidth = target.offsetWidth;
+      const scrollLeft =
+        target.offsetLeft - container.offsetLeft - containerWidth / 2 + targetWidth / 2;
+
+      container.scrollTo({
+        left: scrollLeft,
+        behavior: "smooth",
+      });
     }
   }, [currentCategoryId]);
 
