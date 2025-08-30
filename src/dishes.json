@@ -1098,5 +1098,1105 @@
       "name": "Russian"
     },
     "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 101,
+    "name": "Butter Chicken",
+    "price": "$18",
+    "description": "Creamy tomato-based chicken curry",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 102,
+    "name": "Paneer Tikka",
+    "price": "$14",
+    "description": "Grilled cottage cheese cubes marinated in spices",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 103,
+    "name": "Biryani",
+    "price": "$20",
+    "description": "Spiced rice with meat or vegetables",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 104,
+    "name": "Tacos",
+    "price": "$12",
+    "description": "Corn tortillas filled with meat and vegetables",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 105,
+    "name": "Guacamole",
+    "price": "$8",
+    "description": "Avocado dip with lime and cilantro",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 106,
+    "name": "Enchiladas",
+    "price": "$15",
+    "description": "Rolled tortillas with filling and chili sauce",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 107,
+    "name": "Pad Thai",
+    "price": "$13",
+    "description": "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 108,
+    "name": "Green Curry",
+    "price": "$17",
+    "description": "Spicy coconut curry with vegetables and meat",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 109,
+    "name": "Tom Yum Soup",
+    "price": "$11",
+    "description": "Hot and sour Thai soup with shrimp",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 110,
+    "name": "Moussaka",
+    "price": "$16",
+    "description": "Greek casserole with eggplant and ground meat",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 111,
+    "name": "Greek Salad",
+    "price": "$10",
+    "description": "Salad with tomatoes, cucumber, feta, and olives",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": null
+  },
+  {
+    "id": 112,
+    "name": "Souvlaki",
+    "price": "$14",
+    "description": "Grilled meat skewers served with pita",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 113,
+    "name": "Baklava",
+    "price": "$9",
+    "description": "Sweet pastry with nuts and honey syrup",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 114,
+    "name": "Kebab",
+    "price": "$13",
+    "description": "Grilled meat on skewers",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": null
+  },
+  {
+    "id": 115,
+    "name": "Lahmacun",
+    "price": "$8",
+    "description": "Thin Turkish pizza with minced meat",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 116,
+    "name": "Paella",
+    "price": "$22",
+    "description": "Spanish rice dish with seafood and saffron",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 117,
+    "name": "Gazpacho",
+    "price": "$7",
+    "description": "Cold tomato soup from Spain",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": null
+  },
+  {
+    "id": 118,
+    "name": "Churros",
+    "price": "$6",
+    "description": "Fried dough pastry with sugar",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 119,
+    "name": "Chicken Tikka Masala",
+    "price": "$19",
+    "description": "Chicken in creamy spiced tomato sauce",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 120,
+    "name": "Rogan Josh",
+    "price": "$21",
+    "description": "Lamb curry with aromatic spices",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 121,
+    "name": "Chana Masala",
+    "price": "$13",
+    "description": "Spicy chickpea curry",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 122,
+    "name": "Quesadilla",
+    "price": "$11",
+    "description": "Grilled tortilla with cheese and fillings",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 123,
+    "name": "Pozole",
+    "price": "$16",
+    "description": "Mexican soup with hominy and pork",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 124,
+    "name": "Tamales",
+    "price": "$14",
+    "description": "Corn dough stuffed with meat or cheese",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 125,
+    "name": "Massaman Curry",
+    "price": "$18",
+    "description": "Thai curry with potatoes and peanuts",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 126,
+    "name": "Som Tum",
+    "price": "$9",
+    "description": "Spicy green papaya salad",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 127,
+    "name": "Mango Sticky Rice",
+    "price": "$8",
+    "description": "Sweet coconut rice with mango",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 128,
+    "name": "Spanakopita",
+    "price": "$12",
+    "description": "Greek spinach pie with feta cheese",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 129,
+    "name": "Gyros",
+    "price": "$13",
+    "description": "Meat cooked on a vertical rotisserie",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": null
+  },
+  {
+    "id": 130,
+    "name": "Dolmades",
+    "price": "$10",
+    "description": "Stuffed grape leaves with rice and herbs",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 131,
+    "name": "Pide",
+    "price": "$12",
+    "description": "Turkish flatbread with various toppings",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 132,
+    "name": "Menemen",
+    "price": "$9",
+    "description": "Turkish scrambled eggs with tomatoes and peppers",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": null
+  },
+  {
+    "id": 133,
+    "name": "Simit",
+    "price": "$5",
+    "description": "Turkish sesame bread ring",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 134,
+    "name": "Tortilla Española",
+    "price": "$13",
+    "description": "Spanish omelette with potatoes and onions",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 135,
+    "name": "Patatas Bravas",
+    "price": "$8",
+    "description": "Fried potatoes with spicy tomato sauce",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": null
+  },
+  {
+    "id": 136,
+    "name": "Pulpo a la Gallega",
+    "price": "$17",
+    "description": "Galician-style octopus with paprika",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 137,
+    "name": "Aloo Gobi",
+    "price": "$12",
+    "description": "Indian potato and cauliflower curry",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 138,
+    "name": "Dosa",
+    "price": "$10",
+    "description": "Crispy South Indian rice pancake",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 139,
+    "name": "Samosa",
+    "price": "$7",
+    "description": "Fried pastry with spiced potato filling",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 140,
+    "name": "Elote",
+    "price": "$6",
+    "description": "Mexican street corn with cheese and chili",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 141,
+    "name": "Chiles en Nogada",
+    "price": "$18",
+    "description": "Stuffed poblano peppers with walnut sauce",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 142,
+    "name": "Mole Poblano",
+    "price": "$17",
+    "description": "Chicken in rich chocolate chili sauce",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 143,
+    "name": "Khao Pad",
+    "price": "$10",
+    "description": "Thai fried rice with vegetables and meat",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 144,
+    "name": "Satay",
+    "price": "$12",
+    "description": "Grilled meat skewers with peanut sauce",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 145,
+    "name": "Red Curry",
+    "price": "$15",
+    "description": "Spicy Thai curry with coconut milk",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 146,
+    "name": "Fasolada",
+    "price": "$9",
+    "description": "Greek bean soup with vegetables",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 147,
+    "name": "Pastitsio",
+    "price": "$15",
+    "description": "Greek baked pasta with meat and béchamel",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": null
+  },
+  {
+    "id": 148,
+    "name": "Loukoumades",
+    "price": "$7",
+    "description": "Greek honey-soaked doughnuts",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 149,
+    "name": "Kofte",
+    "price": "$11",
+    "description": "Turkish meatballs with spices",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 150,
+    "name": "Mercimek Çorbası",
+    "price": "$8",
+    "description": "Turkish lentil soup",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": null
+  },
+  {
+    "id": 151,
+    "name": "Kunefe",
+    "price": "$13",
+    "description": "Turkish dessert with cheese and syrup",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 152,
+    "name": "Pimientos de Padrón",
+    "price": "$9",
+    "description": "Spanish fried green peppers",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 153,
+    "name": "Crema Catalana",
+    "price": "$8",
+    "description": "Spanish custard dessert with caramelized sugar",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": null
+  },
+  {
+    "id": 154,
+    "name": "Fabada Asturiana",
+    "price": "$16",
+    "description": "Spanish bean stew with chorizo",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 155,
+    "name": "Malai Kofta",
+    "price": "$15",
+    "description": "Indian vegetable balls in creamy sauce",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 156,
+    "name": "Fish Curry",
+    "price": "$17",
+    "description": "Spicy Indian fish curry",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 157,
+    "name": "Gulab Jamun",
+    "price": "$8",
+    "description": "Indian milk-based sweet balls in syrup",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 158,
+    "name": "Fajitas",
+    "price": "$15",
+    "description": "Grilled meat and vegetables served with tortillas",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 159,
+    "name": "Sopa de Lima",
+    "price": "$10",
+    "description": "Mexican lime soup with chicken",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 160,
+    "name": "Flan",
+    "price": "$7",
+    "description": "Mexican caramel custard dessert",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 161,
+    "name": "Pad See Ew",
+    "price": "$14",
+    "description": "Thai stir-fried noodles with soy sauce",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 162,
+    "name": "Yam Nua",
+    "price": "$13",
+    "description": "Thai spicy beef salad",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 163,
+    "name": "Kanom Krok",
+    "price": "$8",
+    "description": "Thai coconut rice pancakes",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 164,
+    "name": "Horiatiki",
+    "price": "$11",
+    "description": "Traditional Greek village salad",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 165,
+    "name": "Kleftiko",
+    "price": "$18",
+    "description": "Slow-cooked Greek lamb",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": null
+  },
+  {
+    "id": 166,
+    "name": "Galaktoboureko",
+    "price": "$9",
+    "description": "Greek custard pie with syrup",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 167,
+    "name": "Iskender Kebab",
+    "price": "$15",
+    "description": "Turkish döner kebab with tomato sauce and yogurt",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 168,
+    "name": "Dolma",
+    "price": "$10",
+    "description": "Stuffed vegetables with rice and meat",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": null
+  },
+  {
+    "id": 169,
+    "name": "Börek",
+    "price": "$8",
+    "description": "Turkish pastry with cheese or meat filling",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 170,
+    "name": "Empanada",
+    "price": "$10",
+    "description": "Spanish pastry filled with meat or vegetables",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 171,
+    "name": "Cocido Madrileño",
+    "price": "$19",
+    "description": "Spanish chickpea stew with meats",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": null
+  },
+  {
+    "id": 172,
+    "name": "Tarta de Santiago",
+    "price": "$8",
+    "description": "Spanish almond cake",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 173,
+    "name": "Palak Paneer",
+    "price": "$14",
+    "description": "Indian spinach curry with cottage cheese",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 174,
+    "name": "Vindaloo",
+    "price": "$16",
+    "description": "Spicy Indian curry with vinegar and chili",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 175,
+    "name": "Jalebi",
+    "price": "$6",
+    "description": "Indian sweet fried spirals in syrup",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 176,
+    "name": "Carnitas",
+    "price": "$14",
+    "description": "Mexican slow-cooked pork",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 177,
+    "name": "Ceviche",
+    "price": "$13",
+    "description": "Mexican marinated seafood salad",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 178,
+    "name": "Chilaquiles",
+    "price": "$12",
+    "description": "Tortilla chips with salsa and cheese",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 179,
+    "name": "Gaeng Daeng",
+    "price": "$15",
+    "description": "Thai red curry with meat and vegetables",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 180,
+    "name": "Khao Soi",
+    "price": "$16",
+    "description": "Northern Thai coconut curry noodle soup",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 181,
+    "name": "Tod Mun Pla",
+    "price": "$10",
+    "description": "Thai fish cakes with herbs",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 182,
+    "name": "Gemista",
+    "price": "$12",
+    "description": "Greek stuffed peppers and tomatoes",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 183,
+    "name": "Saganaki",
+    "price": "$9",
+    "description": "Greek fried cheese appetizer",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": null
+  },
+  {
+    "id": 184,
+    "name": "Revithada",
+    "price": "$11",
+    "description": "Greek chickpea stew",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 185,
+    "name": "Hamsi Tava",
+    "price": "$13",
+    "description": "Turkish fried anchovies",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 186,
+    "name": "Cacik",
+    "price": "$7",
+    "description": "Turkish yogurt and cucumber dip",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": null
+  },
+  {
+    "id": 187,
+    "name": "Hamsili Pilav",
+    "price": "$12",
+    "description": "Turkish rice with anchovies",
+    "category": {
+      "id": 11,
+      "name": "Turkish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 188,
+    "name": "Salmorejo",
+    "price": "$9",
+    "description": "Spanish cold tomato soup with ham and egg",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 189,
+    "name": "Callos",
+    "price": "$15",
+    "description": "Spanish tripe stew",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": null
+  },
+  {
+    "id": 190,
+    "name": "Leche Frita",
+    "price": "$7",
+    "description": "Spanish fried milk dessert",
+    "category": {
+      "id": 12,
+      "name": "Spanish"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 191,
+    "name": "Chicken Chettinad",
+    "price": "$17",
+    "description": "Spicy South Indian chicken curry",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 192,
+    "name": "Pav Bhaji",
+    "price": "$10",
+    "description": "Indian spiced vegetable mash with bread rolls",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": null
+  },
+  {
+    "id": 193,
+    "name": "Ras Malai",
+    "price": "$9",
+    "description": "Indian dessert of cheese balls in sweetened milk",
+    "category": {
+      "id": 7,
+      "name": "Indian"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 194,
+    "name": "Tostada",
+    "price": "$8",
+    "description": "Mexican crispy tortilla with toppings",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 195,
+    "name": "Birria",
+    "price": "$16",
+    "description": "Mexican spicy stew with goat or beef",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": null
+  },
+  {
+    "id": 196,
+    "name": "Arroz con Leche",
+    "price": "$7",
+    "description": "Mexican rice pudding dessert",
+    "category": {
+      "id": 8,
+      "name": "Mexican"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 197,
+    "name": "Khao Man Gai",
+    "price": "$13",
+    "description": "Thai chicken and rice with sauce",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 198,
+    "name": "Pla Rad Prik",
+    "price": "$17",
+    "description": "Thai fried fish with chili sauce",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": null
+  },
+  {
+    "id": 199,
+    "name": "Khanom Buang",
+    "price": "$8",
+    "description": "Thai crispy pancakes with sweet or savory filling",
+    "category": {
+      "id": 9,
+      "name": "Thai"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
+  },
+  {
+    "id": 200,
+    "name": "Stifado",
+    "price": "$16",
+    "description": "Greek beef stew with onions",
+    "category": {
+      "id": 10,
+      "name": "Greek"
+    },
+    "image": "https://via.placeholder.com/300x200.png?text=Dish"
   }
 ]

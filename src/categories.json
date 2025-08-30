@@ -22,5 +22,29 @@
   {
     "id": 6,
     "name": "Japanese"
+  },
+  {
+    "id": 7,
+    "name": "Indian"
+  },
+  {
+    "id": 8,
+    "name": "Mexican"
+  },
+  {
+    "id": 9,
+    "name": "Thai"
+  },
+  {
+    "id": 10,
+    "name": "Greek"
+  },
+  {
+    "id": 11,
+    "name": "Turkish"
+  },
+  {
+    "id": 12,
+    "name": "Spanish"
   }
 ]
