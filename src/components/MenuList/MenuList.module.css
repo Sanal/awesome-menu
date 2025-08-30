@@ -9,3 +9,7 @@
   padding: 20px 0.5rem 100px;
   list-style: none;
 }
+
+.menuItem:last-child {
+  min-height: 80vh;
+}

@@ -27,10 +27,11 @@ export const MenuList: React.FC<Props> = ({
             <li
               key={categoryId}
               id={categoryId}
+              className={styles.menuItem}
             >
               <InView
                 as="div"
-                rootMargin="-50% 0% -50% 0%"
+                rootMargin="-25% 0% -75% 0%"
                 onChange={(inView) => {
                   if (inView) {
                     onCategoryVisible(id);
