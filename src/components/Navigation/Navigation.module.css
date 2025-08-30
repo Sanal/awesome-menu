@@ -1,8 +1,14 @@
 .container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
   overflow: auto;
   scrollbar-width: none;
   max-width: 100%;
   background-color: var(--primary-background);
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper {
@@ -31,4 +37,8 @@
 .currentLink {
   color: var(--text-color);
   background-color: var(--link-color);
+}
+
+.currentLink:hover {
+  color: var(--text-color);
 }

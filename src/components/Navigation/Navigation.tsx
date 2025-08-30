@@ -31,6 +31,21 @@ export const Navigation: React.FC<Props> = ({
     }
   }, [currentCategoryId]);
 
+  const handleAnchorScroll = (e: React.UIEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const href = e.currentTarget.getAttribute("href");
+    if (!href) return;
+    const targetElement = document.querySelector(href);
+    if (!targetElement) return;
+    const yOffset = -getRemValue() * 2.5;
+    const y =
+      targetElement.getBoundingClientRect().top +
+      window.pageYOffset +
+      yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
+  }
+
   return (
     <div className={styles.container} ref={containerRef}>
       <div className={styles.wrapper}>
@@ -42,6 +57,7 @@ export const Navigation: React.FC<Props> = ({
               <li key={categoryId} ref={isCurrent ? targetRef : null}>
                 <a
                   href={"#" + categoryId}
+                  onClick={handleAnchorScroll}
                   className={
                     styles.link + " " + (isCurrent ? styles.currentLink : "")
                   }

@@ -27,7 +27,6 @@ export const MenuList: React.FC<Props> = ({
             <li
               key={categoryId}
               id={categoryId}
-              className={styles.categoryContainer}
             >
               <InView
                 as="div"
