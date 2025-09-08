@@ -10,12 +10,6 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 1024px) {
-  .container {
-    border-radius: 0 0 1rem 1rem;
-  }
-}
-
 .wrapper {
   display: flex;
 }
@@ -46,4 +40,33 @@
 
 .currentLink:hover {
   color: var(--text-color);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 16rem;
+    max-height: 100vh;
+    overflow: auto;
+    box-shadow: none;
+  }
+
+  .navigationList {
+    flex-direction: column;
+    align-items: start;
+    height: auto;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background: none;
+  }
+
+  .currentLink {
+    color: var(--text-color);
+    background-color: var(--link-color);
+  }
 }

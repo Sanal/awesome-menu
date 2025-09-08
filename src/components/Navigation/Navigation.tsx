@@ -3,6 +3,7 @@ import { getRemValue } from "../../utils/getRemValue";
 import styles from "./Navigation.module.css";
 
 import type React from "react";
+import { getWindowDimensions } from "../../utils/getWindowDimensions";
 
 type Props = {
   categories: Category[];
@@ -18,16 +19,24 @@ export const Navigation: React.FC<Props> = ({
 
   useEffect(() => {
     if (containerRef.current && targetRef.current) {
+      const { width } = getWindowDimensions();
+      const isMobile = width <= 1024;
       const container = containerRef.current;
       const target = targetRef.current;
+      const scrollOffsetLeft = isMobile ? target.offsetLeft - container.offsetWidth / 2 + target.offsetWidth / 2 : 0;
+      const scrollOffsetTop = isMobile ? 0 : target.offsetTop - container.offsetHeight / 2 + target.offsetHeight / 2;
 
-      const containerWidth = container.offsetWidth;
-      const targetWidth = target.offsetWidth;
-      const scrollLeft =
-        target.offsetLeft - container.offsetLeft - containerWidth / 2 + targetWidth / 2;
+      console.log({
+        target,
+        container,
+        scrollOffsetLeft,
+        scrollOffsetTop,
+        isMobile
+      });
 
       container.scrollTo({
-        left: scrollLeft,
+        left: scrollOffsetLeft,
+        top: scrollOffsetTop,
         behavior: "smooth",
       });
     }
@@ -36,10 +45,15 @@ export const Navigation: React.FC<Props> = ({
   const handleAnchorScroll = (e: React.UIEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const href = e.currentTarget.getAttribute("href");
+
     if (!href) return;
+
     const targetElement = document.querySelector(href);
+
     if (!targetElement) return;
-    const yOffset = -getRemValue() * 2.5;
+
+    const { width } = getWindowDimensions();
+    const yOffset = width <= 1024 ? -getRemValue() * 2.5 : 0;
     const y =
       targetElement.getBoundingClientRect().top +
       window.pageYOffset +

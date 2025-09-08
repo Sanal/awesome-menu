@@ -13,3 +13,9 @@
 .menuItem:last-child {
   min-height: 80vh;
 }
+
+@media (min-width: 1024px) {
+  .menuContainer {
+    padding-top: 0
+  }
+}
