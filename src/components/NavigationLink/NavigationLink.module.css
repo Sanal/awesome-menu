@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  background-color: var(--secondary-background);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.currentLink {
+  color: var(--primary-background);
+  background-color: var(--link-color);
+}
+
+.currentLink:hover {
+  color: var(--primary-background);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background: none;
+  }
+
+  .currentLink {
+    color: var(--primary-background);
+    background-color: var(--link-color);
+  }
+
+  .currentLink:hover {
+    color: var(--primary-background);
+  }
+}
