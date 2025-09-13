@@ -1,5 +1,4 @@
-import { getRemValue } from "../../utils/getRemValue";
-import { getWindowDimensions } from "../../utils/getWindowDimensions";
+import { getRemValue, getWindowDimensions } from "../../../../shared/lib/helpers";
 
 export const handleAnchorScroll = (e: React.UIEvent<HTMLAnchorElement>) => {
   e.preventDefault();

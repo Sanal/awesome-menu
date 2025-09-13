@@ -1,6 +1,5 @@
-import styles from "./DishCard.module.css";
-
 import type React from "react";
+import styles from "./DishCard.module.css";
 
 type Props = {
   dish: Dish;

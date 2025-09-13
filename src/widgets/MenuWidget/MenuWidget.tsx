@@ -1,8 +1,7 @@
-import { InView } from "react-intersection-observer";
-import { CategoryList } from "../CategoryList";
-import styles from "./MenuList.module.css";
-
 import type React from "react";
+import { InView } from "react-intersection-observer";
+import { CategoryList } from "../../entities/Category";
+import styles from "./MenuWidget.module.css";
 
 type Props = {
   cateogries: Category[];
@@ -10,7 +9,7 @@ type Props = {
   onCategoryVisible: (id: Category["id"]) => void;
 };
 
-export const MenuList: React.FC<Props> = ({
+export const MenuWidget: React.FC<Props> = ({
   cateogries,
   dishes,
   onCategoryVisible,
@@ -24,11 +23,7 @@ export const MenuList: React.FC<Props> = ({
             ({ category }) => category.id === id
           );
           return (
-            <li
-              key={categoryId}
-              id={categoryId}
-              className={styles.menuItem}
-            >
+            <li key={categoryId} id={categoryId} className={styles.menuItem}>
               <InView
                 as="div"
                 rootMargin="-25% 0% -75% 0%"

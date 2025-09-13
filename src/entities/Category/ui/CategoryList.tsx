@@ -1,7 +1,6 @@
-import { DishCard } from "../DishCard";
-import styles from "./CategoryList.module.css";
-
 import type React from "react";
+import { DishCard } from "../../Dish";
+import styles from "./CategoryList.module.css";
 
 type Props = {
   category: Category;

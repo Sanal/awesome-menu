@@ -1,15 +1,14 @@
-import styles from "./Navigation.module.css";
-
 import type React from "react";
-import { NavigationLink } from "../NavigationLink";
+import { NavigationLink } from "./ui/NavigationLink";
 import { useScrollSync } from "./hooks/useScrollSync";
+import styles from "./CategoryNavigation.module.css";
 
 type Props = {
   categories: Category[];
   currentCategoryId?: Category["id"];
 };
 
-export const Navigation: React.FC<Props> = ({
+export const CategoryNavigation: React.FC<Props> = ({
   categories,
   currentCategoryId,
 }) => {
