@@ -1,6 +1,6 @@
 import type React from "react";
 import { InView } from "react-intersection-observer";
-import { CategoryList } from "../../entities/Category";
+import { CategoryList } from "@/entities/Category";
 import styles from "./MenuWidget.module.css";
 
 type Props = {

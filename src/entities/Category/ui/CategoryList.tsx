@@ -1,5 +1,5 @@
 import type React from "react";
-import { DishCard } from "../../Dish";
+import { DishCard } from "@/entities/Dish";
 import styles from "./CategoryList.module.css";
 
 type Props = {

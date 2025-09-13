@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { CategoryNavigation } from "../../features/CategoryNavigation";
 
-import categoriesRaw from "./data/categories.json";
-import dishesRaw from "./data/dishes.json";
+import categoriesRaw from "@/shared/mocks/categories.json";
+import dishesRaw from "@/shared/mocks/dishes.json";
 import { MenuWidget } from "../../widgets/MenuWidget";
 
 const categories = categoriesRaw as Category[];

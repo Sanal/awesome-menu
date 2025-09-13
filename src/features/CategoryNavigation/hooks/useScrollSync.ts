@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { getWindowDimensions } from "../../../shared/lib/helpers";
+import { getWindowDimensions } from "@/shared/lib/helpers";
 
 export const useScrollSync = (currentCategoryId?: Category["id"]) => {
   const containerRef = useRef<HTMLDivElement>(null);
