@@ -20,14 +20,6 @@ export const useScrollSync = (currentCategoryId?: Category["id"]) => {
           container.offsetHeight / 2 +
           target.offsetHeight / 2;
 
-      console.log({
-        target,
-        container,
-        scrollOffsetLeft,
-        scrollOffsetTop,
-        isMobile,
-      });
-
       container.scrollTo({
         left: scrollOffsetLeft,
         top: scrollOffsetTop,
