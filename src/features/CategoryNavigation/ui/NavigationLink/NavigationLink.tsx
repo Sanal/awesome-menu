@@ -1,4 +1,4 @@
-import { handleAnchorScroll } from "./handelAnchorScroll";
+import { handleAnchorScroll } from "./handleAnchorScroll";
 import styles from "./NavigationLink.module.css";
 
 type Props = {
