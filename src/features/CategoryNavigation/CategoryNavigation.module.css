@@ -6,7 +6,6 @@
   overflow: auto;
   scrollbar-width: none;
   max-width: 100%;
-  background-color: var(--primary-background);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,6 +21,7 @@
   margin: 0;
   padding: 0.5rem;
   list-style: none;
+  background-color: var(--primary-background);
 }
 
 @media (min-width: 1024px) {
@@ -30,7 +30,6 @@
     max-height: 100vh;
     overflow: auto;
     box-shadow: none;
-    border-radius: 0 0 1rem 1rem;
   }
 
   .navigationList {
@@ -38,6 +37,8 @@
     align-items: start;
     height: auto;
     gap: 1rem;
+    margin-top: 1rem;
     padding: 1.5rem 1rem;
+    border-radius: 1rem;
   }
 }
